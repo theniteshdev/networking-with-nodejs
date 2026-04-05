@@ -1,0 +1,9 @@
+Host nitesh-server
+    HostName 192.168.1.8
+    User nitesh
+    IdentityFile ~/.ssh/niteshs-key
+
+Host another-server
+    HostName 192.168.1.5
+    User another
+    IdentityFile ~/.ssh/anothers-key
